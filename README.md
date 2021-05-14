@@ -32,6 +32,7 @@ As you can see below, what we actually want to pull out of the response body liv
 
 **Ex. Response Body:**
 ```json
+{
 	"data":[
 		0:{
 			"id":47179
@@ -60,7 +61,7 @@ As you can see below, what we actually want to pull out of the response body liv
 ### Example App Flow
 For info on how the code functions, you can refer to this (slightly out of date) process flow:
 
-![App Flow](../static/app_flow.png)
+![App Flow](/static/app_flow.png)
 
 
 
