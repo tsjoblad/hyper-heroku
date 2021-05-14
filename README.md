@@ -31,8 +31,7 @@ These can be modified in Heroku's Settings -> Config Vars.
 As you can see below, what we actually want to pull out of the response body lives in the `data` object, hence we set our `json_object = 'data'`.
 
 **Ex. Response Body:**
-'''json
-{
+```json
 	"data":[
 		0:{
 			"id":47179
@@ -56,7 +55,7 @@ As you can see below, what we actually want to pull out of the response body liv
 		"total_count":49747
 	}
 }
-'''
+```
 
 ### Example App Flow
 For info on how the code functions, you can refer to this (slightly out of date) process flow:
