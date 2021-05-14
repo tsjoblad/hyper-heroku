@@ -31,7 +31,7 @@ These can be modified in Heroku's Settings -> Config Vars.
 As you can see below, what we actually want to pull out of the response body lives in the `data` object, hence we set our `json_object = 'data'`.
 
 **Ex. Response Body:**
-```json
+```
 {
 	"data":[
 		0:{
