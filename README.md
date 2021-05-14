@@ -8,7 +8,7 @@ This is a proof-of-concept set of code that leverages Tableau's Hyper API and He
 
 
 ## Modifying the GET Request:
-In our `app.py` file, the get_data() call will likely need to be significantly modified in order to fit other uses cases. This has less to do with Tableau or Hyper, however, so I'll leave it to you to figure out how to get and shape the data properly.
+In our `app.py` file, the `get_data()` call will likely need to be significantly modified in order to fit other uses cases. This has less to do with Tableau or Hyper, however, so I'll leave it to you to figure out how to get and shape the data properly.
 
 ## Deploying to Heroku:
 To see the app in action, simply click the `Deploy` button above. After logging in or creating a free account, it will prompt you to fill in the following environmental variables that serve both to authenticate and help with the script as it pulls data from the web:
@@ -65,4 +65,13 @@ For info on how the code functions, you can refer to this (slightly out of date)
 
 
 
-It should not be deployed in a production sense without modification.
+## __Resources__
+Check out these resources to learn more:
+- [Hyper API docs](https://help.tableau.com/current/api/hyper_api/en-us/index.html)
+- [TSC docs](https://tableau.github.io/server-client-python/docs/)
+- [REST API docs](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm)
+- [Tableau Tools](https://github.com/bryantbhowell/tableau_tools)
+- [Publishing Data Sources](https://help.tableau.com/current/pro/desktop/en-us/export_connection.htm)
+- [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python)
+
+It should not be deployed in a production environment without modification.
