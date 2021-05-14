@@ -13,7 +13,7 @@ In our `app.py` file, the get_data() call will likely need to be significantly m
 ## Deploying to Heroku:
 To see the app in action, simply click the `Deploy` button above. After logging in or creating a free account, it will prompt you to fill in the following environmental variables that serve both to authenticate and help with the script as it pulls data from the web:
 
-| Config Var | ex. | purpose |
+| Config Var | Ex. | Purpose |
 |-|-|-|
 | headers | {"x-rapidapi-key": "8fc50d58c9mshff9e92e71286d41p14294bjsnfbae10247997","x-rapidapi-host": "free-nba.p.rapidapi.com"} | Provides additional data for the GET request (like keys or tokens). Must be structured like a python `Dict`. |
 | hyper_name | nba_data.hyper | Names the `.hyper` file. Must have file extension. |
