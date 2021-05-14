@@ -15,7 +15,7 @@ To see the app in action, simply click the `Deploy` button above. After logging 
 
 | Config Var | Ex. | Purpose |
 |-|-|-|
-| headers | {"x-rapidapi-key": "8fc50d58c9mshff9e92e71286d41p14294bjsnfbae10247997","x-rapidapi-host": "free-nba.p.rapidapi.com"} | Provides additional data for the GET request (like keys or tokens). Must be structured like a python `Dict`. |
+| headers | {"x-rapidapi-key": "8fc50d58c9mshff9e92e71286d41p14294bjsnfbae10247997", "x-rapidapi-host": "free-nba.p.rapidapi.com"} | Provides additional data for the GET request (like keys or tokens). Must be structured like a python `Dict`. |
 | hyper_name | nba_data.hyper | Names the `.hyper` file. Must have file extension. |
 | json_object | data | Helps parse the data from the JSON output of the REST request. See below screenshot. |
 | personal_access_token | asdfaaljkdfs=fWGz1TPAH7hs1OzgcmORTfsrT5 | Token value provided for Tableau Auth. (Ex. is obviously fake). |
