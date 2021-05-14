@@ -1,0 +1,53 @@
+{
+    "name": "Hyper on Heroku",
+    "description": "A barebones Python app to Publish Hyper Files to Server/Online",
+    "repository": "https://github.com/tsjoblad/hyper-heroku/tree/master",
+    "logo": "https://www.tableau.com/sites/default/files/blog/hyper_logo_1.jpg",
+    "keywords": ["tableau", "hyper", "public"],
+    "env": {
+        "hyper_name": {
+          "description": "The name of the .hyper file to create and publish.",
+          "value": "name_ur_file.hyper",
+          "required": "true"
+        },
+        "personal_access_token": {
+          "description": "For logging into Tableau Online/Server.",
+          "value": "yourtokenwillgohere",
+          "required": "true"
+        },
+        "project_name": {
+          "description": "Name (not ID) for the Project you wish to publish to.",
+          "value": "myprojectrules",
+          "required": "true"
+        },
+        "server_address": {
+          "description": "URL of Tableau Server/Online, for example: https://10ax.online.tableau.com/",
+          "value": "https://my.localtableau.server",
+          "required": "true"
+        },
+        "site_id": {
+          "description": "ID of the site you wish to publish to.",
+          "value": "myawesomesite",
+          "required": "true"
+        },
+        "token_name": {
+          "description": "Name of the PAT used for Tableau Auth",
+          "value": "my_token_name",
+          "required": "true"
+        },
+        "rest_url": {
+          "description": "The full GET request you want to gather data from.",
+          "value": "https://slack.com/api/users.list?token=TOKENVALUEpretty=1",
+          "required": "true"
+        },
+        "headers": {
+          "description": "Optional headers instead of passing in API token in URL. Structure like a dict saved as a str.",
+          "value": "{'x-rapidapi-key': 'key_goes_here','x-rapidapi-host': 'other_headers'}"
+        },
+        "json_object": {
+          "description": "Picks the main part of the JSON object to pull data from.",
+          "value": "data",
+          "required": "true"
+        }
+      }
+  }
