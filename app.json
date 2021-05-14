@@ -37,7 +37,7 @@
         },
         "rest_url": {
           "description": "The full GET request you want to gather data from.",
-          "value": "https://slack.com/api/users.list?token=TOKENVALUEpretty=1",
+          "value": "https://free-nba.p.rapidapi.com/games",
           "required": "true"
         },
         "headers": {
